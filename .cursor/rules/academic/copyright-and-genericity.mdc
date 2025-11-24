@@ -1,6 +1,7 @@
 ---
-description: Ensures that when creating rules or prompts for AI agents, copyrighted course materials are never included. Requires using generic, domain-agnostic examples instead of specific course content, terminology, or examples from lectures.
 alwaysApply: true
+description: Ensures that when creating rules or prompts for AI agents, copyrighted course materials are never included. Requires using generic, domain-agnostic examples instead of specific course content, terminology, or examples from lectures.
+author: Himel Das
 ---
 # Copyright and Genericity Rule
 
