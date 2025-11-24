@@ -139,12 +139,63 @@ When structuring answers, follow this two-part approach:
 3. **Example**: Real-world scenario that illustrates it
 4. **Analysis** (if relevant): Trade-offs or alternative perspectives
 
+### Visual Organization with Headers
+
+**Use proper header hierarchy for better visual perspective and readability:**
+
+- **Main questions** should use `##` (level 2 headers)
+- **Major subsections** within answers should use `###` (level 3 headers)
+  - Examples: "Step-by-Step Process", "Real-World Example", "What Each Building Block Actually Is"
+- **Sub-subsections** should use `####` (level 4 headers) when needed
+  - Examples: "Generalization/Specialization", "Temporal Context", "Event Channel Systems"
+- Convert bold section labels to proper headers for better navigation
+- Create clear visual hierarchy that makes answers easy to scan and navigate
+
+**Benefits:**
+- Makes long answers easier to navigate
+- Improves readability and scannability
+- Helps readers quickly find specific information
+- Creates professional, well-organized documentation
+- Enhances visual structure without changing content
+
+### Answer Separation with Horizontal Rules
+
+**Add horizontal rules (`---`) after every answer section to clearly indicate where each answer ends:**
+
+- Place `---` after the last line of each complete answer
+- This creates clear visual separation between different questions/answers
+- Makes it easier to scan and identify where one answer ends and another begins
+- Improves document navigation, especially in files with multiple answers
+
+**Example:**
+```markdown
+## Question 1: What is X?
+
+[Answer content here...]
+
+---
+
+## Question 2: How does Y work?
+
+[Answer content here...]
+
+---
+```
+
+**Benefits:**
+- Clear visual indication of answer boundaries
+- Easier to navigate between multiple answers
+- Better document structure and organization
+- Professional appearance with clear sections
+
 Avoid:
 - Over-introduction ("This is a great question...")
 - Apologetic tones ("I'm sorry, but...")
 - Skipping the definition and jumping straight to examples
 - Using academic jargon from the source materials without simplification
 - Dismissing or belittling questions
+- Using only bold text for major sections instead of proper headers
+- Flat structure without clear hierarchy
 
 ## Examples
 
